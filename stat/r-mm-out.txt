@@ -1,0 +1,1806 @@
+$`A195S `
+
+Formula: kobs ~ kcat * S/(km + S)
+
+Parameters:
+      Estimate Std. Error t value Pr(>|t|)    
+kcat 9.469e+02  8.267e+00  114.55   <2e-16 ***
+km   5.103e-03  1.708e-04   29.89   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 12.84 on 22 degrees of freedom
+
+Number of iterations to convergence: 6 
+Achieved convergence tolerance: 6.852e-07
+
+
+$`A356A `
+
+Formula: kobs ~ kcat * S/(km + S)
+
+Parameters:
+      Estimate Std. Error t value Pr(>|t|)    
+kcat 7.998e+02  1.175e+01   68.08  < 2e-16 ***
+km   6.958e-03  3.683e-04   18.89 4.38e-15 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 16.23 on 22 degrees of freedom
+
+Number of iterations to convergence: 7 
+Achieved convergence tolerance: 3.123e-06
+
+
+$`A357A `
+
+Formula: kobs ~ kcat * S/(km + S)
+
+Parameters:
+      Estimate Std. Error t value Pr(>|t|)    
+kcat 7.095e+02  1.708e+01   41.55  < 2e-16 ***
+km   4.332e-03  4.120e-04   10.52 4.81e-10 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 28.04 on 22 degrees of freedom
+
+Number of iterations to convergence: 5 
+Achieved convergence tolerance: 2.588e-07
+
+
+$`A408A `
+
+Formula: kobs ~ kcat * S/(km + S)
+
+Parameters:
+      Estimate Std. Error t value Pr(>|t|)    
+kcat 1.468e+03  2.739e+01   53.60  < 2e-16 ***
+km   4.353e-03  3.206e-04   13.58 3.59e-12 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 44.9 on 22 degrees of freedom
+
+Number of iterations to convergence: 5 
+Achieved convergence tolerance: 5.295e-06
+
+
+$C167A
+
+Formula: kobs ~ kcat * S/(km + S)
+
+Parameters:
+      Estimate Std. Error t value Pr(>|t|)    
+kcat 3.991e+02  7.631e+00   52.31  < 2e-16 ***
+km   1.044e-02  6.575e-04   15.89 1.54e-13 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 8.772 on 22 degrees of freedom
+
+Number of iterations to convergence: 5 
+Achieved convergence tolerance: 2.66e-06
+
+
+$`C167A `
+
+Formula: kobs ~ kcat * S/(km + S)
+
+Parameters:
+      Estimate Std. Error t value Pr(>|t|)    
+kcat 5.407e+02  1.394e+01   38.78  < 2e-16 ***
+km   1.780e-02  1.316e-03   13.53 3.86e-12 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 11.8 on 22 degrees of freedom
+
+Number of iterations to convergence: 4 
+Achieved convergence tolerance: 3.096e-06
+
+
+$`C167N+W120R`
+
+Formula: kobs ~ kcat * S/(km + S)
+
+Parameters:
+     Estimate Std. Error t value Pr(>|t|)    
+kcat  0.35927    0.07863   4.569  0.00015 ***
+km    0.02620    0.01467   1.786  0.08788 .  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.04979 on 22 degrees of freedom
+
+Number of iterations to convergence: 10 
+Achieved convergence tolerance: 9.957e-06
+
+
+$`C167Q `
+
+Formula: kobs ~ kcat * S/(km + S)
+
+Parameters:
+      Estimate Std. Error t value Pr(>|t|)    
+kcat 4.989e+02  5.015e+00   99.48   <2e-16 ***
+km   4.813e-03  1.875e-04   25.67   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 7.95 on 22 degrees of freedom
+
+Number of iterations to convergence: 5 
+Achieved convergence tolerance: 6.922e-06
+
+
+$`D403A `
+
+Formula: kobs ~ kcat * S/(km + S)
+
+Parameters:
+     Estimate Std. Error t value Pr(>|t|)    
+kcat  1.19056    0.21157   5.627 1.39e-05 ***
+km    0.04405    0.01690   2.607   0.0165 *  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.08002 on 21 degrees of freedom
+
+Number of iterations to convergence: 5 
+Achieved convergence tolerance: 1.167e-07
+
+
+$`E154D `
+
+Formula: kobs ~ kcat * S/(km + S)
+
+Parameters:
+      Estimate Std. Error t value Pr(>|t|)    
+kcat 8.781e+02  4.672e+01   18.80 4.85e-15 ***
+km   3.454e-03  7.559e-04    4.57  0.00015 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 82.24 on 22 degrees of freedom
+
+Number of iterations to convergence: 5 
+Achieved convergence tolerance: 8.536e-06
+
+
+$E164A
+
+Formula: kobs ~ kcat * S/(km + S)
+
+Parameters:
+      Estimate Std. Error t value Pr(>|t|)    
+kcat 0.1913051  0.0069112  27.680  < 2e-16 ***
+km   0.0010052  0.0001697   5.923 7.03e-06 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.01525 on 21 degrees of freedom
+
+Number of iterations to convergence: 7 
+Achieved convergence tolerance: 4.864e-06
+
+
+$`E177A `
+
+Formula: kobs ~ kcat * S/(km + S)
+
+Parameters:
+      Estimate Std. Error t value Pr(>|t|)    
+kcat 9.862e+02  9.964e+00   98.97   <2e-16 ***
+km   5.984e-03  2.247e-04   26.63   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 14.61 on 22 degrees of freedom
+
+Number of iterations to convergence: 5 
+Achieved convergence tolerance: 2.285e-07
+
+
+$`E17S `
+
+Formula: kobs ~ kcat * S/(km + S)
+
+Parameters:
+      Estimate Std. Error t value Pr(>|t|)    
+kcat 6.412e+02  9.326e+00   68.75  < 2e-16 ***
+km   7.320e-03  3.797e-04   19.28 2.87e-15 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 12.62 on 22 degrees of freedom
+
+Number of iterations to convergence: 7 
+Achieved convergence tolerance: 8.554e-07
+
+
+$`E180K `
+
+Formula: kobs ~ kcat * S/(km + S)
+
+Parameters:
+      Estimate Std. Error t value Pr(>|t|)    
+kcat 5.549e+02  7.277e+00   76.26  < 2e-16 ***
+km   6.193e-03  2.997e-04   20.66 6.74e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 10.53 on 22 degrees of freedom
+
+Number of iterations to convergence: 6 
+Achieved convergence tolerance: 1.226e-06
+
+
+$`E180L `
+
+Formula: kobs ~ kcat * S/(km + S)
+
+Parameters:
+      Estimate Std. Error t value Pr(>|t|)    
+kcat 6.804e+02  9.386e+00   72.49  < 2e-16 ***
+km   7.745e-03  3.765e-04   20.57 7.38e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 12.4 on 22 degrees of freedom
+
+Number of iterations to convergence: 5 
+Achieved convergence tolerance: 2.954e-06
+
+
+$E222A
+
+Formula: kobs ~ kcat * S/(km + S)
+
+Parameters:
+      Estimate Std. Error t value Pr(>|t|)    
+kcat 8.988e+01  4.265e+00  21.075 4.45e-16 ***
+km   6.259e-04  1.546e-04   4.048 0.000537 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 10.88 on 22 degrees of freedom
+
+Number of iterations to convergence: 10 
+Achieved convergence tolerance: 4.046e-06
+
+
+$E406A
+
+Formula: kobs ~ kcat * S/(km + S)
+
+Parameters:
+     Estimate Std. Error t value Pr(>|t|)
+kcat   1.0997     0.8387   1.311    0.204
+km     0.1441     0.1600   0.901    0.378
+
+Residual standard error: 0.05604 on 21 degrees of freedom
+
+Number of iterations to convergence: 7 
+Achieved convergence tolerance: 2.178e-06
+
+
+$`E406D `
+
+Formula: kobs ~ kcat * S/(km + S)
+
+Parameters:
+      Estimate Std. Error t value Pr(>|t|)    
+kcat 39.102685   1.254067   31.18  < 2e-16 ***
+km    0.034129   0.002574   13.26 5.74e-12 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.6234 on 22 degrees of freedom
+
+Number of iterations to convergence: 6 
+Achieved convergence tolerance: 3.613e-07
+
+
+$`E426S `
+
+Formula: kobs ~ kcat * S/(km + S)
+
+Parameters:
+      Estimate Std. Error t value Pr(>|t|)    
+kcat 5.182e+02  4.688e+01  11.054 1.89e-10 ***
+km   4.129e-03  1.489e-03   2.773   0.0111 *  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 78.17 on 22 degrees of freedom
+
+Number of iterations to convergence: 7 
+Achieved convergence tolerance: 4.986e-06
+
+
+$E53A
+[1] "Error in nls(kobs ~ kcat * S/(km + S), x, start = b) : singular gradient\n"
+attr(,"class")
+[1] "try-error"
+attr(,"condition")
+<simpleError in nls(kobs ~ kcat * S/(km + S), x, start = b): singular gradient>
+
+$`F405A `
+
+Formula: kobs ~ kcat * S/(km + S)
+
+Parameters:
+     Estimate Std. Error t value Pr(>|t|)    
+kcat 0.361379   0.041747   8.656 3.38e-08 ***
+km   0.002726   0.001308   2.084   0.0502 .  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.06967 on 20 degrees of freedom
+
+Number of iterations to convergence: 5 
+Achieved convergence tolerance: 7.514e-06
+
+
+$`F415A `
+
+Formula: kobs ~ kcat * S/(km + S)
+
+Parameters:
+     Estimate Std. Error t value Pr(>|t|)
+kcat  1.31168    0.89902   1.459    0.159
+km    0.01611    0.03253   0.495    0.625
+
+Residual standard error: 0.8111 on 22 degrees of freedom
+
+Number of iterations to convergence: 6 
+Achieved convergence tolerance: 5.085e-06
+
+
+$`F75A `
+
+Formula: kobs ~ kcat * S/(km + S)
+
+Parameters:
+      Estimate Std. Error t value Pr(>|t|)    
+kcat 6.133e+02  8.381e+00   73.18  < 2e-16 ***
+km   5.465e-03  2.825e-04   19.34 2.67e-15 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 12.71 on 22 degrees of freedom
+
+Number of iterations to convergence: 6 
+Achieved convergence tolerance: 4.35e-06
+
+
+$`G355A `
+
+Formula: kobs ~ kcat * S/(km + S)
+
+Parameters:
+     Estimate Std. Error t value Pr(>|t|)    
+kcat 1.026938   0.070915  14.481 9.95e-13 ***
+km   0.006059   0.001551   3.906 0.000758 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.1035 on 22 degrees of freedom
+
+Number of iterations to convergence: 10 
+Achieved convergence tolerance: 4.411e-06
+
+
+$`H101R `
+
+Formula: kobs ~ kcat * S/(km + S)
+
+Parameters:
+      Estimate Std. Error t value Pr(>|t|)    
+kcat 1.059e+03  1.619e+01   65.42  < 2e-16 ***
+km   1.062e-02  5.325e-04   19.95 1.41e-15 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 18.46 on 22 degrees of freedom
+
+Number of iterations to convergence: 5 
+Achieved convergence tolerance: 6.637e-06
+
+
+$`H119A `
+
+Formula: kobs ~ kcat * S/(km + S)
+
+Parameters:
+      Estimate Std. Error t value Pr(>|t|)    
+kcat 1.432e+02  1.062e+01  13.489 4.08e-12 ***
+km   1.510e-02  3.358e-03   4.498 0.000179 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 9.967 on 22 degrees of freedom
+
+Number of iterations to convergence: 5 
+Achieved convergence tolerance: 6.771e-06
+
+
+$`H122E `
+
+Formula: kobs ~ kcat * S/(km + S)
+
+Parameters:
+     Estimate Std. Error t value Pr(>|t|)    
+kcat  0.64873    0.13187   4.919 6.41e-05 ***
+km    0.16739    0.04756   3.520  0.00193 ** 
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.006804 on 22 degrees of freedom
+
+Number of iterations to convergence: 6 
+Achieved convergence tolerance: 9.828e-06
+
+
+$`H122N `
+
+Formula: kobs ~ kcat * S/(km + S)
+
+Parameters:
+     Estimate Std. Error t value Pr(>|t|)    
+kcat 1.899272   0.067163   28.28  < 2e-16 ***
+km   0.023252   0.002181   10.66 3.73e-10 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.04687 on 22 degrees of freedom
+
+Number of iterations to convergence: 5 
+Achieved convergence tolerance: 4.241e-06
+
+
+$`H178A `
+
+Formula: kobs ~ kcat * S/(km + S)
+
+Parameters:
+      Estimate Std. Error t value Pr(>|t|)    
+kcat 1.108e+02  2.843e+00   38.97  < 2e-16 ***
+km   7.410e-03  6.763e-04   10.96 2.23e-10 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 3.828 on 22 degrees of freedom
+
+Number of iterations to convergence: 7 
+Achieved convergence tolerance: 4.733e-06
+
+
+$`H315N `
+
+Formula: kobs ~ kcat * S/(km + S)
+
+Parameters:
+      Estimate Std. Error t value Pr(>|t|)    
+kcat 4.770e+01  4.326e-01  110.25   <2e-16 ***
+km   4.971e-03  1.737e-04   28.62   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.6784 on 22 degrees of freedom
+
+Number of iterations to convergence: 4 
+Achieved convergence tolerance: 4.574e-07
+
+
+$`H373R `
+
+Formula: kobs ~ kcat * S/(km + S)
+
+Parameters:
+      Estimate Std. Error t value Pr(>|t|)    
+kcat 7.074e+02  9.122e+00   77.55  < 2e-16 ***
+km   6.306e-03  2.991e-04   21.09  4.4e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 13.11 on 22 degrees of freedom
+
+Number of iterations to convergence: 5 
+Achieved convergence tolerance: 4.42e-07
+
+
+$`H379R `
+
+Formula: kobs ~ kcat * S/(km + S)
+
+Parameters:
+      Estimate Std. Error t value Pr(>|t|)    
+kcat 2.3744317  0.0866702  27.396  < 2e-16 ***
+km   0.0062402  0.0008394   7.434 1.95e-07 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.1251 on 22 degrees of freedom
+
+Number of iterations to convergence: 9 
+Achieved convergence tolerance: 5.674e-06
+
+
+$`I247N `
+
+Formula: kobs ~ kcat * S/(km + S)
+
+Parameters:
+      Estimate Std. Error t value Pr(>|t|)    
+kcat 2.714e+02  3.686e+00   73.64  < 2e-16 ***
+km   2.151e-03  1.297e-04   16.59 6.35e-14 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 7.367 on 22 degrees of freedom
+
+Number of iterations to convergence: 6 
+Achieved convergence tolerance: 6.705e-06
+
+
+$`I303N `
+
+Formula: kobs ~ kcat * S/(km + S)
+
+Parameters:
+      Estimate Std. Error t value Pr(>|t|)    
+kcat 6.934e+02  1.274e+01   54.43  < 2e-16 ***
+km   4.481e-03  3.233e-04   13.86 2.38e-12 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 20.68 on 22 degrees of freedom
+
+Number of iterations to convergence: 6 
+Achieved convergence tolerance: 4.955e-06
+
+
+$`I91E `
+
+Formula: kobs ~ kcat * S/(km + S)
+
+Parameters:
+      Estimate Std. Error t value Pr(>|t|)    
+kcat 5.914e+02  5.276e+01  11.210 2.53e-10 ***
+km   3.258e-03  1.161e-03   2.807   0.0106 *  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 90.72 on 21 degrees of freedom
+
+Number of iterations to convergence: 7 
+Achieved convergence tolerance: 6.144e-06
+
+
+$`K344A `
+
+Formula: kobs ~ kcat * S/(km + S)
+
+Parameters:
+      Estimate Std. Error t value Pr(>|t|)    
+kcat 1.046e+03  1.679e+01   62.31  < 2e-16 ***
+km   5.456e-03  3.314e-04   16.47 7.42e-14 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 25.47 on 22 degrees of freedom
+
+Number of iterations to convergence: 5 
+Achieved convergence tolerance: 4.57e-07
+
+
+$`K413A `
+
+Formula: kobs ~ kcat * S/(km + S)
+
+Parameters:
+      Estimate Std. Error t value Pr(>|t|)    
+kcat 8.348e+02  3.264e+01  25.577  < 2e-16 ***
+km   2.920e-03  4.831e-04   6.045 4.39e-06 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 60.26 on 22 degrees of freedom
+
+Number of iterations to convergence: 8 
+Achieved convergence tolerance: 4.453e-06
+
+
+$`L171A `
+
+Formula: kobs ~ kcat * S/(km + S)
+
+Parameters:
+      Estimate Std. Error t value Pr(>|t|)    
+kcat 8.068e+02  9.314e+00   86.62   <2e-16 ***
+km   1.109e-02  4.156e-04   26.69   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 10.38 on 22 degrees of freedom
+
+Number of iterations to convergence: 4 
+Achieved convergence tolerance: 1.427e-06
+
+
+$`L174R `
+
+Formula: kobs ~ kcat * S/(km + S)
+
+Parameters:
+      Estimate Std. Error t value Pr(>|t|)    
+kcat 4.035e+02  6.717e+00   60.07  < 2e-16 ***
+km   3.358e-03  2.311e-04   14.53 9.27e-13 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 11.92 on 22 degrees of freedom
+
+Number of iterations to convergence: 6 
+Achieved convergence tolerance: 1.801e-06
+
+
+$`L219A `
+
+Formula: kobs ~ kcat * S/(km + S)
+
+Parameters:
+      Estimate Std. Error t value Pr(>|t|)    
+kcat 1.975e+02  3.949e+00   50.02  < 2e-16 ***
+km   7.767e-03  5.468e-04   14.20 1.46e-12 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 5.209 on 22 degrees of freedom
+
+Number of iterations to convergence: 5 
+Achieved convergence tolerance: 5.074e-06
+
+
+$`M221A `
+
+Formula: kobs ~ kcat * S/(km + S)
+
+Parameters:
+      Estimate Std. Error t value Pr(>|t|)    
+kcat 5.538e+02  1.339e+01   41.36  < 2e-16 ***
+km   6.419e-03  5.687e-04   11.29 1.28e-10 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 19.11 on 22 degrees of freedom
+
+Number of iterations to convergence: 4 
+Achieved convergence tolerance: 1.417e-06
+
+
+$`M223G `
+
+Formula: kobs ~ kcat * S/(km + S)
+
+Parameters:
+      Estimate Std. Error t value Pr(>|t|)    
+kcat 1.437e+02  8.051e+00  17.853 1.41e-14 ***
+km   1.733e-02  2.803e-03   6.181 3.20e-06 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 6.932 on 22 degrees of freedom
+
+Number of iterations to convergence: 8 
+Achieved convergence tolerance: 7.82e-06
+
+
+$`M261E `
+
+Formula: kobs ~ kcat * S/(km + S)
+
+Parameters:
+      Estimate Std. Error t value Pr(>|t|)    
+kcat 61.633030   4.962891  12.419 2.05e-11 ***
+km    0.010120   0.002703   3.744  0.00112 ** 
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 5.795 on 22 degrees of freedom
+
+Number of iterations to convergence: 9 
+Achieved convergence tolerance: 3.558e-06
+
+
+$`M323A `
+
+Formula: kobs ~ kcat * S/(km + S)
+
+Parameters:
+      Estimate Std. Error t value Pr(>|t|)    
+kcat 4.156e+02  1.058e+01   39.27  < 2e-16 ***
+km   9.344e-03  8.040e-04   11.62 7.34e-11 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 12.84 on 22 degrees of freedom
+
+Number of iterations to convergence: 6 
+Achieved convergence tolerance: 4.704e-06
+
+
+$`M323K `
+
+Formula: kobs ~ kcat * S/(km + S)
+
+Parameters:
+     Estimate Std. Error t value Pr(>|t|)   
+kcat  1.38612    0.41628   3.330  0.00304 **
+km    0.03264    0.02340   1.395  0.17685   
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.2161 on 22 degrees of freedom
+
+Number of iterations to convergence: 7 
+Achieved convergence tolerance: 7.664e-06
+
+
+$`M361T `
+
+Formula: kobs ~ kcat * S/(km + S)
+
+Parameters:
+      Estimate Std. Error t value Pr(>|t|)    
+kcat 4.361e+02  1.115e+01   39.13   <2e-16 ***
+km   4.833e-03  4.783e-04   10.10    1e-09 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 17.65 on 22 degrees of freedom
+
+Number of iterations to convergence: 7 
+Achieved convergence tolerance: 1.95e-06
+
+
+$`N163A `
+
+Formula: kobs ~ kcat * S/(km + S)
+
+Parameters:
+      Estimate Std. Error t value Pr(>|t|)    
+kcat 6.6623516  0.1589231   41.92  < 2e-16 ***
+km   0.0119454  0.0009079   13.16 6.66e-12 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.1704 on 22 degrees of freedom
+
+Number of iterations to convergence: 5 
+Achieved convergence tolerance: 6.783e-06
+
+
+$`N166D `
+
+Formula: kobs ~ kcat * S/(km + S)
+
+Parameters:
+      Estimate Std. Error t value Pr(>|t|)    
+kcat 11.138527   0.283888   39.24  < 2e-16 ***
+km    0.015401   0.001171   13.15 6.69e-12 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.2633 on 22 degrees of freedom
+
+Number of iterations to convergence: 6 
+Achieved convergence tolerance: 2.522e-06
+
+
+$`N220A `
+
+Formula: kobs ~ kcat * S/(km + S)
+
+Parameters:
+      Estimate Std. Error t value Pr(>|t|)    
+kcat 4.049e+02  8.165e+00    49.6  < 2e-16 ***
+km   1.027e-02  6.846e-04    15.0 4.89e-13 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 9.465 on 22 degrees of freedom
+
+Number of iterations to convergence: 6 
+Achieved convergence tolerance: 4.209e-06
+
+
+$`N220D+N293D`
+
+Formula: kobs ~ kcat * S/(km + S)
+
+Parameters:
+     Estimate Std. Error t value Pr(>|t|)    
+kcat 0.861090   0.048185  17.870 1.38e-14 ***
+km   0.034056   0.004485   7.592 1.39e-07 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.024 on 22 degrees of freedom
+
+Number of iterations to convergence: 4 
+Achieved convergence tolerance: 7.367e-06
+
+
+$`N223H `
+
+Formula: kobs ~ kcat * S/(km + S)
+
+Parameters:
+      Estimate Std. Error t value Pr(>|t|)    
+kcat 1.226e+02  1.338e+00   91.63   <2e-16 ***
+km   5.136e-03  2.146e-04   23.93   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 2.074 on 22 degrees of freedom
+
+Number of iterations to convergence: 5 
+Achieved convergence tolerance: 7.454e-07
+
+
+$N293A
+
+Formula: kobs ~ kcat * S/(km + S)
+
+Parameters:
+     Estimate Std. Error t value Pr(>|t|)    
+kcat 6.354258   1.553100   4.091  0.00018 ***
+km   0.009454   0.007789   1.214  0.23130    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 2.651 on 44 degrees of freedom
+
+Number of iterations to convergence: 4 
+Achieved convergence tolerance: 1.525e-07
+
+
+$`N354A `
+
+Formula: kobs ~ kcat * S/(km + S)
+
+Parameters:
+      Estimate Std. Error t value Pr(>|t|)    
+kcat 3.0140495  0.0935565  32.216  < 2e-16 ***
+km   0.0056887  0.0006628   8.583  1.8e-08 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.1398 on 22 degrees of freedom
+
+Number of iterations to convergence: 8 
+Achieved convergence tolerance: 6.761e-06
+
+
+$`N404A `
+
+Formula: kobs ~ kcat * S/(km + S)
+
+Parameters:
+      Estimate Std. Error t value Pr(>|t|)    
+kcat 3.7048963  0.0489320   75.72   <2e-16 ***
+km   0.0094153  0.0004195   22.44   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.05917 on 22 degrees of freedom
+
+Number of iterations to convergence: 6 
+Achieved convergence tolerance: 9.592e-07
+
+
+$`N407A `
+
+Formula: kobs ~ kcat * S/(km + S)
+
+Parameters:
+      Estimate Std. Error t value Pr(>|t|)    
+kcat 4.921e+01  8.094e-01   60.80  < 2e-16 ***
+km   1.095e-02  5.863e-04   18.68 5.55e-15 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.9086 on 22 degrees of freedom
+
+Number of iterations to convergence: 5 
+Achieved convergence tolerance: 4.366e-06
+
+
+$`P329W `
+
+Formula: kobs ~ kcat * S/(km + S)
+
+Parameters:
+     Estimate Std. Error t value Pr(>|t|)    
+kcat  0.38283    0.07472   5.124 6.04e-05 ***
+km    0.02717    0.01342   2.025   0.0572 .  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.04587 on 19 degrees of freedom
+
+Number of iterations to convergence: 7 
+Achieved convergence tolerance: 7.802e-06
+
+
+$Q19A
+
+Formula: kobs ~ kcat * S/(km + S)
+
+Parameters:
+     Estimate Std. Error t value Pr(>|t|)    
+kcat 0.360716   0.033516  10.763 5.27e-10 ***
+km   0.032190   0.007549   4.264 0.000346 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.01679 on 21 degrees of freedom
+
+Number of iterations to convergence: 6 
+Achieved convergence tolerance: 2.017e-06
+
+
+$`Q22S `
+
+Formula: kobs ~ kcat * S/(km + S)
+
+Parameters:
+     Estimate Std. Error t value Pr(>|t|)    
+kcat  0.72077    0.08453   8.526 2.02e-08 ***
+km    0.05723    0.01323   4.327 0.000271 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.02318 on 22 degrees of freedom
+
+Number of iterations to convergence: 7 
+Achieved convergence tolerance: 6.58e-06
+
+
+$`Q284R `
+
+Formula: kobs ~ kcat * S/(km + S)
+
+Parameters:
+      Estimate Std. Error t value Pr(>|t|)    
+kcat 3.698e+02  1.539e+01  24.031  < 2e-16 ***
+km   9.677e-03  1.350e-03   7.169 3.47e-07 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 18.36 on 22 degrees of freedom
+
+Number of iterations to convergence: 5 
+Achieved convergence tolerance: 1.616e-06
+
+
+$`Q313R `
+
+Formula: kobs ~ kcat * S/(km + S)
+
+Parameters:
+      Estimate Std. Error t value Pr(>|t|)    
+kcat 5.737e+02  2.869e+00  200.01   <2e-16 ***
+km   3.537e-03  7.244e-05   48.82   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 5.015 on 22 degrees of freedom
+
+Number of iterations to convergence: 6 
+Achieved convergence tolerance: 4.224e-07
+
+
+$`Q316R `
+
+Formula: kobs ~ kcat * S/(km + S)
+
+Parameters:
+      Estimate Std. Error t value Pr(>|t|)    
+kcat 8.048e+02  5.964e+00  134.95   <2e-16 ***
+km   3.617e-03  1.094e-04   33.07   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 10.36 on 22 degrees of freedom
+
+Number of iterations to convergence: 5 
+Achieved convergence tolerance: 5.959e-06
+
+
+$R240A
+
+Formula: kobs ~ kcat * S/(km + S)
+
+Parameters:
+      Estimate Std. Error t value Pr(>|t|)    
+kcat 7.260e+03  3.853e+02   18.84 2.39e-12 ***
+km   9.781e-03  7.388e-04   13.24 4.89e-10 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 22.32 on 16 degrees of freedom
+
+Number of iterations to convergence: 7 
+Achieved convergence tolerance: 9.618e-08
+
+
+$R240A_1
+
+Formula: kobs ~ kcat * S/(km + S)
+
+Parameters:
+      Estimate Std. Error t value Pr(>|t|)    
+kcat 4.687e+02  1.361e+01   34.43  < 2e-16 ***
+km   4.170e-02  2.664e-03   15.65 2.08e-13 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 5.479 on 22 degrees of freedom
+
+Number of iterations to convergence: 6 
+Achieved convergence tolerance: 8.685e-06
+
+
+$R240A_2
+
+Formula: kobs ~ kcat * S/(km + S)
+
+Parameters:
+      Estimate Std. Error t value Pr(>|t|)    
+kcat 143.12747   28.73251   4.981 5.51e-05 ***
+km     0.04457    0.01924   2.317   0.0302 *  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 10.72 on 22 degrees of freedom
+
+Number of iterations to convergence: 9 
+Achieved convergence tolerance: 5.85e-06
+
+
+$`R76A `
+
+Formula: kobs ~ kcat * S/(km + S)
+
+Parameters:
+     Estimate Std. Error t value Pr(>|t|)    
+kcat 2.604545   0.159485  16.331 8.77e-14 ***
+km   0.013534   0.002558   5.291 2.61e-05 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.1597 on 22 degrees of freedom
+
+Number of iterations to convergence: 6 
+Achieved convergence tolerance: 3.975e-06
+
+
+$`S14A `
+
+Formula: kobs ~ kcat * S/(km + S)
+
+Parameters:
+      Estimate Std. Error t value Pr(>|t|)    
+kcat 3.205e+02  1.135e+01  28.233  < 2e-16 ***
+km   8.255e-03  1.016e-03   8.125 4.56e-08 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 14.58 on 22 degrees of freedom
+
+Number of iterations to convergence: 8 
+Achieved convergence tolerance: 2.941e-06
+
+
+$`S16A `
+[1] "Error in nls(kobs ~ kcat * S/(km + S), x, start = b) : singular gradient\n"
+attr(,"class")
+[1] "try-error"
+attr(,"condition")
+<simpleError in nls(kobs ~ kcat * S/(km + S), x, start = b): singular gradient>
+
+$`S17A `
+
+Formula: kobs ~ kcat * S/(km + S)
+
+Parameters:
+      Estimate Std. Error t value Pr(>|t|)    
+kcat 4.857e+02  5.497e+01   8.837 1.09e-08 ***
+km   5.869e-03  2.478e-03   2.369    0.027 *  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 81.18 on 22 degrees of freedom
+
+Number of iterations to convergence: 5 
+Achieved convergence tolerance: 4.415e-07
+
+
+$`S19A `
+
+Formula: kobs ~ kcat * S/(km + S)
+
+Parameters:
+      Estimate Std. Error t value Pr(>|t|)    
+kcat 1.540e+02  1.375e+00  112.01   <2e-16 ***
+km   1.401e-02  3.826e-04   36.62   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 1.35 on 22 degrees of freedom
+
+Number of iterations to convergence: 3 
+Achieved convergence tolerance: 3.337e-06
+
+
+$`S334A `
+
+Formula: kobs ~ kcat * S/(km + S)
+
+Parameters:
+      Estimate Std. Error t value Pr(>|t|)    
+kcat 8.168e+02  5.381e+00  151.80   <2e-16 ***
+km   4.338e-03  1.129e-04   38.42   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 8.831 on 22 degrees of freedom
+
+Number of iterations to convergence: 3 
+Achieved convergence tolerance: 6.564e-06
+
+
+$`S400A `
+
+Formula: kobs ~ kcat * S/(km + S)
+
+Parameters:
+      Estimate Std. Error t value Pr(>|t|)    
+kcat 5.307e+02  8.900e+00   59.63  < 2e-16 ***
+km   3.220e-03  2.248e-04   14.32 1.24e-12 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 15.99 on 22 degrees of freedom
+
+Number of iterations to convergence: 6 
+Achieved convergence tolerance: 3.07e-06
+
+
+$`T178R `
+
+Formula: kobs ~ kcat * S/(km + S)
+
+Parameters:
+      Estimate Std. Error t value Pr(>|t|)    
+kcat 6.119e+02  5.836e+01  10.485 8.83e-14 ***
+km   5.465e-03  1.972e-03   2.772  0.00802 ** 
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 125.1 on 46 degrees of freedom
+
+Number of iterations to convergence: 6 
+Achieved convergence tolerance: 7.051e-06
+
+
+$`T218A `
+
+Formula: kobs ~ kcat * S/(km + S)
+
+Parameters:
+      Estimate Std. Error t value Pr(>|t|)    
+kcat 4.644e+02  1.847e+01   25.14  < 2e-16 ***
+km   6.515e-03  9.400e-04    6.93 7.59e-07 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 25.89 on 21 degrees of freedom
+
+Number of iterations to convergence: 9 
+Achieved convergence tolerance: 5.41e-06
+
+
+$`T296A `
+
+Formula: kobs ~ kcat * S/(km + S)
+
+Parameters:
+      Estimate Std. Error t value Pr(>|t|)    
+kcat 1.094e+02  2.347e+00   46.63  < 2e-16 ***
+km   1.105e-02  7.697e-04   14.35 1.19e-12 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 2.622 on 22 degrees of freedom
+
+Number of iterations to convergence: 6 
+Achieved convergence tolerance: 2.407e-06
+
+
+$`T352A `
+
+Formula: kobs ~ kcat * S/(km + S)
+
+Parameters:
+      Estimate Std. Error t value Pr(>|t|)    
+kcat 59.514495   2.405917  24.737  < 2e-16 ***
+km    0.014258   0.001755   8.124 4.57e-08 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 2.337 on 22 degrees of freedom
+
+Number of iterations to convergence: 3 
+Achieved convergence tolerance: 7.849e-08
+
+
+$`V147S `
+
+Formula: kobs ~ kcat * S/(km + S)
+
+Parameters:
+      Estimate Std. Error t value Pr(>|t|)    
+kcat 4.5582581  0.1200565   37.97  < 2e-16 ***
+km   0.0064527  0.0006172   10.45 8.85e-10 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.1688 on 21 degrees of freedom
+
+Number of iterations to convergence: 7 
+Achieved convergence tolerance: 8.712e-06
+
+
+$`V55G `
+
+Formula: kobs ~ kcat * S/(km + S)
+
+Parameters:
+      Estimate Std. Error t value Pr(>|t|)    
+kcat 6.875e+02  1.301e+01   52.84  < 2e-16 ***
+km   8.246e-03  5.425e-04   15.20 3.76e-13 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 16.72 on 22 degrees of freedom
+
+Number of iterations to convergence: 6 
+Achieved convergence tolerance: 6.368e-06
+
+
+$W120A
+
+Formula: kobs ~ kcat * S/(km + S)
+
+Parameters:
+      Estimate Std. Error t value Pr(>|t|)    
+kcat 66.007199   1.880106   35.11  < 2e-16 ***
+km    0.066682   0.003547   18.80 4.84e-15 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.4196 on 22 degrees of freedom
+
+Number of iterations to convergence: 7 
+Achieved convergence tolerance: 4.966e-07
+
+
+$`W120F `
+
+Formula: kobs ~ kcat * S/(km + S)
+
+Parameters:
+      Estimate Std. Error t value Pr(>|t|)    
+kcat 4.718e+02  2.056e+01  22.941  < 2e-16 ***
+km   1.608e-02  2.067e-03   7.782 9.32e-08 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 18.57 on 22 degrees of freedom
+
+Number of iterations to convergence: 8 
+Achieved convergence tolerance: 3.161e-06
+
+
+$W325A
+
+Formula: kobs ~ kcat * S/(km + S)
+
+Parameters:
+      Estimate Std. Error t value Pr(>|t|)    
+kcat 2.941e+01  8.880e-01  33.116  < 2e-16 ***
+km   1.612e-03  2.251e-04   7.161 3.53e-07 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 1.898 on 22 degrees of freedom
+
+Number of iterations to convergence: 7 
+Achieved convergence tolerance: 7.476e-06
+
+
+$`W325L `
+
+Formula: kobs ~ kcat * S/(km + S)
+
+Parameters:
+      Estimate Std. Error t value Pr(>|t|)    
+kcat 1.085e+02  1.265e+00   85.82   <2e-16 ***
+km   5.948e-03  2.578e-04   23.07   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 1.858 on 22 degrees of freedom
+
+Number of iterations to convergence: 6 
+Achieved convergence tolerance: 1.042e-06
+
+
+$`W328C `
+
+Formula: kobs ~ kcat * S/(km + S)
+
+Parameters:
+      Estimate Std. Error t value Pr(>|t|)    
+kcat 1.045e+01  3.309e-01  31.591  < 2e-16 ***
+km   4.175e-03  5.258e-04   7.941 6.67e-08 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.5498 on 22 degrees of freedom
+
+Number of iterations to convergence: 7 
+Achieved convergence tolerance: 9.816e-06
+
+
+$`W328H `
+
+Formula: kobs ~ kcat * S/(km + S)
+
+Parameters:
+      Estimate Std. Error t value Pr(>|t|)    
+kcat 3.492e+01  1.171e+00   29.83  < 2e-16 ***
+km   3.075e-03  4.325e-04    7.11 3.95e-07 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 2.131 on 22 degrees of freedom
+
+Number of iterations to convergence: 7 
+Achieved convergence tolerance: 7.974e-06
+
+
+$`W328L `
+
+Formula: kobs ~ kcat * S/(km + S)
+
+Parameters:
+      Estimate Std. Error t value Pr(>|t|)    
+kcat 1.067e+02  3.213e+00  33.199  < 2e-16 ***
+km   5.328e-03  6.100e-04   8.733 1.34e-08 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 4.917 on 22 degrees of freedom
+
+Number of iterations to convergence: 4 
+Achieved convergence tolerance: 8.589e-06
+
+
+$`W399A `
+
+Formula: kobs ~ kcat * S/(km + S)
+
+Parameters:
+     Estimate Std. Error t value Pr(>|t|)    
+kcat 0.235170   0.012213  19.256 2.94e-15 ***
+km   0.016650   0.002525   6.594 1.25e-06 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.01079 on 22 degrees of freedom
+
+Number of iterations to convergence: 8 
+Achieved convergence tolerance: 2.661e-06
+
+
+$`W402C `
+
+Formula: kobs ~ kcat * S/(km + S)
+
+Parameters:
+     Estimate Std. Error t value Pr(>|t|)    
+kcat 2.423250   0.090688   26.72  < 2e-16 ***
+km   0.060229   0.004362   13.81 2.57e-12 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.02325 on 22 degrees of freedom
+
+Number of iterations to convergence: 7 
+Achieved convergence tolerance: 3.825e-07
+
+
+$`W407A `
+
+Formula: kobs ~ kcat * S/(km + S)
+
+Parameters:
+      Estimate Std. Error t value Pr(>|t|)    
+kcat 11.399309   0.485880   23.46  < 2e-16 ***
+km    0.007592   0.001145    6.63 1.15e-06 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.6473 on 22 degrees of freedom
+
+Number of iterations to convergence: 6 
+Achieved convergence tolerance: 1.58e-06
+
+
+$`W407G `
+
+Formula: kobs ~ kcat * S/(km + S)
+
+Parameters:
+     Estimate Std. Error t value Pr(>|t|)
+kcat    1.071      7.287   0.147    0.884
+km      1.126      8.142   0.138    0.891
+
+Residual standard error: 0.01029 on 22 degrees of freedom
+
+Number of iterations to convergence: 9 
+Achieved convergence tolerance: 6.806e-07
+
+
+$W407Q
+
+Formula: kobs ~ kcat * S/(km + S)
+
+Parameters:
+     Estimate Std. Error t value Pr(>|t|)
+kcat  0.99648    0.75112   1.327    0.198
+km    0.06946    0.09639   0.721    0.479
+
+Residual standard error: 0.1583 on 22 degrees of freedom
+
+Number of iterations to convergence: 9 
+Achieved convergence tolerance: 7.83e-06
+
+
+$`W407Q `
+
+Formula: kobs ~ kcat * S/(km + S)
+
+Parameters:
+     Estimate Std. Error t value Pr(>|t|)    
+kcat 0.336611   0.044351   7.590  1.4e-07 ***
+km   0.001849   0.001105   1.673    0.109    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.09189 on 22 degrees of freedom
+
+Number of iterations to convergence: 11 
+Achieved convergence tolerance: 5.16e-06
+
+
+$`W407R `
+
+Formula: kobs ~ kcat * S/(km + S)
+
+Parameters:
+     Estimate Std. Error t value Pr(>|t|)
+kcat   1.0436     0.9183   1.137    0.268
+km     0.1835     0.2204   0.832    0.414
+
+Residual standard error: 0.04032 on 22 degrees of freedom
+
+Number of iterations to convergence: 8 
+Achieved convergence tolerance: 9.153e-07
+
+
+$W409A
+
+Formula: kobs ~ kcat * S/(km + S)
+
+Parameters:
+     Estimate Std. Error t value Pr(>|t|)    
+kcat  0.44042    0.08710   5.056 6.04e-05 ***
+km    0.03991    0.01764   2.263   0.0349 *  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.0367 on 20 degrees of freedom
+
+Number of iterations to convergence: 5 
+Achieved convergence tolerance: 8.687e-06
+
+
+$`WT10_1`
+
+Formula: kobs ~ kcat * S/(km + S)
+
+Parameters:
+      Estimate Std. Error t value Pr(>|t|)    
+kcat 8.395e+02  1.283e+01   65.42  < 2e-16 ***
+km   8.346e-03  4.422e-04   18.87 4.46e-15 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 16.4 on 22 degrees of freedom
+
+Number of iterations to convergence: 6 
+Achieved convergence tolerance: 4.967e-06
+
+
+$`WT10_2`
+
+Formula: kobs ~ kcat * S/(km + S)
+
+Parameters:
+      Estimate Std. Error t value Pr(>|t|)    
+kcat 5.108e+02  1.666e+01   30.66  < 2e-16 ***
+km   1.615e-02  1.551e-03   10.41 5.78e-10 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 15.01 on 22 degrees of freedom
+
+Number of iterations to convergence: 3 
+Achieved convergence tolerance: 2.056e-08
+
+
+$`WT7`
+
+Formula: kobs ~ kcat * S/(km + S)
+
+Parameters:
+      Estimate Std. Error t value Pr(>|t|)    
+kcat 7.315e+02  1.612e+01   45.37  < 2e-16 ***
+km   6.575e-03  5.284e-04   12.44 1.98e-11 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 22.79 on 22 degrees of freedom
+
+Number of iterations to convergence: 8 
+Achieved convergence tolerance: 1.181e-06
+
+
+$`WT8`
+
+Formula: kobs ~ kcat * S/(km + S)
+
+Parameters:
+      Estimate Std. Error t value Pr(>|t|)    
+kcat 8.104e+02  6.003e+00     135   <2e-16 ***
+km   4.940e-03  1.411e-04      35   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 9.433 on 22 degrees of freedom
+
+Number of iterations to convergence: 5 
+Achieved convergence tolerance: 7.613e-06
+
+
+$WT10
+
+Formula: kobs ~ kcat * S/(km + S)
+
+Parameters:
+      Estimate Std. Error t value Pr(>|t|)    
+kcat 5.720e+02  6.406e+00   89.29   <2e-16 ***
+km   5.468e-03  2.316e-04   23.61   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 9.712 on 22 degrees of freedom
+
+Number of iterations to convergence: 5 
+Achieved convergence tolerance: 7.102e-06
+
+
+$`WT2 `
+
+Formula: kobs ~ kcat * S/(km + S)
+
+Parameters:
+      Estimate Std. Error t value Pr(>|t|)    
+kcat 6.911e+02  2.334e+01   29.61  < 2e-16 ***
+km   3.459e-03  4.804e-04    7.20 3.24e-07 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 41.07 on 22 degrees of freedom
+
+Number of iterations to convergence: 8 
+Achieved convergence tolerance: 3.513e-06
+
+
+$`WT3 `
+
+Formula: kobs ~ kcat * S/(km + S)
+
+Parameters:
+      Estimate Std. Error t value Pr(>|t|)    
+kcat 6.957e+02  8.645e+00   80.47   <2e-16 ***
+km   9.647e-03  4.022e-04   23.99   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 10.33 on 22 degrees of freedom
+
+Number of iterations to convergence: 5 
+Achieved convergence tolerance: 1.49e-06
+
+
+$`WT4 `
+
+Formula: kobs ~ kcat * S/(km + S)
+
+Parameters:
+      Estimate Std. Error t value Pr(>|t|)    
+kcat 9.163e+02  1.350e+01   67.87  < 2e-16 ***
+km   6.285e-03  3.408e-04   18.44  7.2e-15 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 19.43 on 22 degrees of freedom
+
+Number of iterations to convergence: 7 
+Achieved convergence tolerance: 3.85e-06
+
+
+$`WT5 `
+
+Formula: kobs ~ kcat * S/(km + S)
+
+Parameters:
+      Estimate Std. Error t value Pr(>|t|)    
+kcat 6.447e+02  3.655e+01  17.639 1.81e-14 ***
+km   5.431e-03  1.166e-03   4.657 0.000121 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 55.54 on 22 degrees of freedom
+
+Number of iterations to convergence: 5 
+Achieved convergence tolerance: 2.878e-07
+
+
+$WT6
+
+Formula: kobs ~ kcat * S/(km + S)
+
+Parameters:
+      Estimate Std. Error t value Pr(>|t|)    
+kcat 9.157e+02  1.208e+01   75.81  < 2e-16 ***
+km   4.657e-03  2.395e-04   19.44  2.4e-15 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 19.36 on 22 degrees of freedom
+
+Number of iterations to convergence: 4 
+Achieved convergence tolerance: 8.611e-09
+
+
+$`WT9 `
+
+Formula: kobs ~ kcat * S/(km + S)
+
+Parameters:
+      Estimate Std. Error t value Pr(>|t|)    
+kcat 8.843e+02  9.259e+00   95.51   <2e-16 ***
+km   5.146e-03  2.062e-04   24.96   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 14.34 on 22 degrees of freedom
+
+Number of iterations to convergence: 5 
+Achieved convergence tolerance: 6.636e-07
+
+
+$`Y169P `
+
+Formula: kobs ~ kcat * S/(km + S)
+
+Parameters:
+      Estimate Std. Error t value Pr(>|t|)    
+kcat 2.521e+01  1.172e+00  21.504 2.91e-16 ***
+km   2.241e-03  4.597e-04   4.875 7.13e-05 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 2.32 on 22 degrees of freedom
+
+Number of iterations to convergence: 9 
+Achieved convergence tolerance: 3.327e-06
+
+
+$`Y18A `
+
+Formula: kobs ~ kcat * S/(km + S)
+
+Parameters:
+      Estimate Std. Error t value Pr(>|t|)    
+kcat 1.965e+02  9.293e+00  21.147 4.14e-16 ***
+km   3.154e-02  3.599e-03   8.764 1.26e-08 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 4.986 on 22 degrees of freedom
+
+Number of iterations to convergence: 5 
+Achieved convergence tolerance: 5.799e-06
+
+
+$`Y294A `
+
+Formula: kobs ~ kcat * S/(km + S)
+
+Parameters:
+      Estimate Std. Error t value Pr(>|t|)    
+kcat 1.604e+02  2.283e+00   70.28  < 2e-16 ***
+km   4.620e-03  2.567e-04   18.00 1.19e-14 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 3.669 on 22 degrees of freedom
+
+Number of iterations to convergence: 5 
+Achieved convergence tolerance: 5.359e-07
+
+
+$`Y295A `
+
+Formula: kobs ~ kcat * S/(km + S)
+
+Parameters:
+     Estimate Std. Error t value Pr(>|t|)    
+kcat 0.247882   0.030373   8.161 4.23e-08 ***
+km   0.012951   0.004954   2.614   0.0158 *  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.03117 on 22 degrees of freedom
+
+Number of iterations to convergence: 8 
+Achieved convergence tolerance: 8.571e-06
+
+
+$`Y297F `
+
+Formula: kobs ~ kcat * S/(km + S)
+
+Parameters:
+      Estimate Std. Error t value Pr(>|t|)    
+kcat 7.349e+02  1.071e+01   68.62   <2e-16 ***
+km   5.987e-03  3.242e-04   18.47    7e-15 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 15.7 on 22 degrees of freedom
+
+Number of iterations to convergence: 6 
+Achieved convergence tolerance: 4.782e-06
+
+
