@@ -1,39 +1,30 @@
-from pandas import *
 import matplotlib.pyplot as plt
-from scipy.optimize import curve_fit
-from numpy import linspace
+import numpy as np
+from sklearn import linear_model
+from pandas import read_csv
 
 csv=read_csv('compiled.csv')
 csv=csv._get_numeric_data()
+csv=csv.as_matrix()
 
-def y(m, x, b): return m*x+b
+target = 'eff'
 
-for col1 in csv.columns:
-  for col2 in ['kcat', 'km', 'eff']:
-    if col1 is not col2:
-     
-      list_col1 = csv[col1].tolist()
-      list_col2 = csv[col2].tolist()
+X = csv[target]
+X_train = X[:-10]
+X_test = X[-10:]
 
-      print(col1, ": ", list_col1.sort(), "\n", 
-        col2, ": ", list_col2.sort() )
+y_train = csv[:-10]
+y_test  = csv[-10:]
 
-      # regression
-      print("Regression on %s versus %s" % (col1, col2))
-      param, cov = curve_fit( y, csv[col1], csv[col2], p0=(1,0) )
-      resid = y(param[0], csv[col1], param[1]) - csv[col1]
-      fres = sum(resid**2)
-      error = [ abs(cov[i][i])**0.5 for i in range(len(param)) ]
-      print("Params: ", param, "Error:", error)
-      xdata = linspace( min(csv[col1]), max(csv[col1]) )
-      ydata = [ y(param[0], x, param[1]) for x in xdata ]
+print(X_test, y_test)
 
-      # plot
-      print("Making plot %s versus %s" % (col1, col2))
-      plt.scatter(csv[col1], csv[col2])
-      plt.plot(xdata, ydata)
-      plt.xlabel(col1)
-      plt.ylabel(col2)
-      plt.title("%s versus %s" % (col1,col2) )
-      plt.savefig("versus/%s-versus-%s.png" % (col1,col2), format='png')
-      plt.clf()
+regr = linear_model.LinearRegression()
+regr.fit(X_train, y_train)
+
+print("Coef: \n", regr.coef_)
+print("Residual sum of squares: %.2f" 
+  % np.mean((regr.predict(X_test) - y_test) ** 2))
+
+plt.scatter(X_test, y_test, color="black")
+plt.plot(X_test, regr.predict(X_test), color="green")
+plt.show()
