@@ -1,0 +1,79 @@
+Submission guidelines can be found at http://www.nature.com/srep/authors/submit.html. In summary, “articles should be no more than 11 typeset pages in length”, “maximum title length is 20 words”, abstract “no more than 200 words long”, “footnotes are not used”, “we suggest that articles contain no more than 8 display items (figures and/or tables)”, “we suggest that for articles with less than 2,000 words, no more than 4 figures/tables should be included”.
+
+# Large, standardized data set of kinetic constants of over 100 mutants of ß-glucosidase B 
+
+A Author, B Author, C Author, D Author
+aAffiliation
+bAffiliation
+cAffiliation
+dAffiliation
+
+> Abstract goes here 
+
+## Introduction 
+
+The Rosetta interface Foldit was used to design mutations that were predicted to maintain or improve protein stability. 
+
+A simple assay was used to measure the rate of the reaction. 
+
+#### Figure. Reaction scheme of ß-glucosidase B on 4-nitrophenyl-ß-D-glucoside. 
+
+A multiple sequence alignment of XXXX related proteins reveals XX conserved residues. 
+
+#### Figure. Multiple sequence alignment. 
+
+
+## Results 
+
+### Effects of mutations on protein stability/folding
+
+Of the 120 mutants constructed and tested in this study, 14 (12%) yielded less than 0.165 mg/mL of purified protein. We expect this number to be much higher for our data set (which contains designed mutations predicted to maintain or improve protein stability) than for data sets generated via random mutagenesis. 
+
+#### Table. Mutants expressing less than 0.165 mg/mL protein.
+
+#### Figure. Cartoon representation of Bagel with residues critical for protein folding colored red. 
+
+A colorized map of the enzyme showing the amino acid positions at which the native residue is critical for folding reveals that most of the mutants have a mutation that removes an aromatic residue from the interior of the protein. Two notable exceptions, XXX and XXX, remain unexplained. 
+
+### Alanine scan of protein-ligand interface
+
+To conduct an alanine scan of the protein-ligand interface, we chose 40 residues having an atom within 12 A of the ligand. Each of these resides was in turn mutated to alanine and the kinetic parameters of the result mutant assayed as described. 
+
+Mutant E164A, where the catalytic glutamate E164 has been replaced with alanine, has a kcat about 8000 times less than the WT. 
+
+#### Table. Alanine scan of protein-ligand interface. 
+
+#### Figure. Cartoon representation of Bagel with residues colored based on the change in kcat (left), KM (center), and kcat/KM (right). 
+
+### Designed mutations 
+
+Text about designed mutations goes here.
+
+#### Table. Designed mutations 
+
+## Conclusions
+
+### Alanine scan, effects on kcat
+
+Residues E164 and W399 are critical for catalytic function. While 164 is predicted to act as a nucleophile, a role for W399 remains  mysterious. 
+
+### Alanine scan, effects on KM
+
+Residue Y18 increases KM by about 4 times. 
+
+### Modeling predicts stability with high confidence 
+
+Molecular modeling of the mutants with Rosetta indicates that we can predict protein stability with high confidence (R-squared of > 0.8) using the Rosetta metric XXXXXXXX. 
+
+## Materials & Methods 
+
+### Design 
+
+### Mutagenesis 
+
+Mutants of ß-glucosidase B in pET29b(+) were constructed using Kunkel mutagenesis. 
+
+### Growth, expression and purification
+
+Plasmids were transformed into _E. coli_ BL21DE3, grown for 24 hours at 37 C in 5 mL TB cultures. 
+
