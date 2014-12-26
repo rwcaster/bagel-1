@@ -27,13 +27,13 @@ def fit(data):
   except:
     si_kcat, si_km, ki, err4, err5, err6 = [ False ] * 6
 
+  # splines for the various fits
   mm_x = lm_x = si_x = linspace(0,max(data['s']))
   mm_y = [mm(xx,kcat,km) for xx in mm_x]
   si_y = [si(xx,si_kcat,si_km,ki) for xx in si_x]
   lm_y = [f(slope,xx,intercept) for xx in lm_x]
   
   result = { 
-    #'sample': data['sample'].iget(0),
     'yield': data['yield'].iget(0),
     'x': data['s'],
     'y': data['kobs'],
@@ -58,10 +58,8 @@ def fit(data):
 
 plates = pandas.read_csv('plates.csv')
 fits = plates.groupby(by='sample').apply(fit)
-fits.to_csv('out/raw_out.csv', columns=('yield', 'kcat', 'err1', 
+fits.to_csv('out/raw-out.csv', columns=('yield', 'kcat', 'err1', 
   'km', 'err2', 'slope', 'std_err', 'R')) 
-
-exit()
 
 for sample, fit in fits.iterrows():
   plt.figure(figsize=(16,4))
@@ -81,4 +79,4 @@ for sample, fit in fits.iterrows():
   plt.plot(fit['lm_x'], fit['lm_y']) 
   plt.title("kcat/km=%2.2f ± %2.3f\nr^2=%1.2f" % (fit['slope'], fit['std_err'], fit['R']**2) )
   plt.xlabel('4-nitrophenyl ß-D-glucoside (M)') 
-  plt.savefig('out/%s.png' % sample)
+  plt.savefig('plots/%s.png' % sample)
