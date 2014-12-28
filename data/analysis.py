@@ -1,24 +1,28 @@
 # analyzes the output from process.py
 
-from pdb import pose
 from numpy import log
-from random import random 
 from pandas import read_csv
 
 csv = read_csv('out/raw_out.csv')
+min_yield = 0.165 # cutoff for expressed
+min_r = 0.95 # cutoff for linear
 
 # metadata 
 csv['seq'] = csv['sample'].str.replace(r'[a-z]', '')
 csv['newaa'] = csv['sample'].str[-1]
 csv['oldaa'] = csv['sample'].str[0]
 
-min_yield = 0.165 # cutoff for expressed
-csv[(csv['yield'] < min_yield )].to_csv('out/noy.csv') # dump non-yielding
-csv = csv[(csv['yield'] > min_yield)] # filter these out right away 
+# first, remove low-yeild mutants
+low_yield = csv[(csv['yield'] < min_yield )]
+csv = csv[(csv['yield'] > min_yield)] 
 
-min_r = 0.95 # cutoff for linear
-csv[(csv['R'] > min_r )].to_csv('out/linear-only.csv') # dump non-yielding
-csv = csv[(csv['R'] < min_r)] # filter these out right away 
+# guess which are linear based on r_value
+linear = csv[(csv['R'] > min_r )]
+csv = csv[(csv['R'] < min_r)] 
+
+
+#.to_csv('out/linear-only.csv') # dump non-yielding
+#.to_csv('out/noy.csv') # dump non-yielding
 
 # calc kcat/km for remainder
 csv['eff'] = csv['kcat'] / csv['km'] 
