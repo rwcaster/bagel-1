@@ -1,0 +1,45 @@
+Increase Km,,,Decrease Km,Decrease Kcat,,To order 2014-10-15,Alex's notes,W399S
+W399S (same as 402 on plasmid?),,,E222H,E164G,,W399S (same as 402 on plasmid?),,Q19C
+Q19C (same as 22 on plasmid?),,,E222Q,W399G,,Q19C (same as 22 on plasmid?),,W120H
+W120H,,,E222R,W399C,,W120H,,N163D
+N163D,,,E222K,Y295G,,N163D,,N163C
+N163C,,,E222Y,,,N163C,,E222H
+Decrease Km,,,W325G,,,E222H,,E222Q
+W325R,1,,W325S,,,E222Q,,E222R
+,,,,,,E222R,,W325G
+,,,,,,W325G,,W325S
+,,,,,,W325S,,R240K
+,,,,,,R240K,,R240E
+Increase kcat,,,,,,R240E,,R240D
+R240K,,,,,,R240D,,I244E
+R240E,,,,,,I244E,,S298E
+R240D,,,,,,S298E,,E53H
+I244E,,,,,,E53H,,E164R
+S298E,,,,,,E164R,,E164G
+Decrease kcat,,,,,,E164G,,W399C
+E53A,,,,,,W399C,,Y295G
+E53R,,,,,,Y295G,,E222H
+E53H,,,,,,,,E222Q
+E164A,,,,,,,,E222R
+E164R,,,,,,,,E222K
+,,,,,,,,E222Y
+,,,,,,,,W325G
+,,,,,,,,W325S
+,,,,,,,,E164G
+,,,,,,,,W399G
+,,,,,,,,W399C
+,,,,,,,,Y295G
+,,,,,,,,W120H
+,,,,,,,,N163D
+,,,,,,,,N163C
+,,,,,,,,W325R
+E164?,,,,,,,,R240K
+E353?,,,,,,,,R240E
+,,,,,,,,R240D
+,,,,,,,,I244E
+,,,,,,,,S298E
+,,,,,,,,E53A
+,,,,,,,,E53R
+,,,,,,,,E53H
+,,,,,,,,E164A
+,,,,,,,,E164R

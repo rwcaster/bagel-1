@@ -16,20 +16,16 @@ The Rosetta interface Foldit was used to design mutations that were predicted to
 
 A simple assay was used to measure the rate of the reaction. 
 
-#### Figure. Reaction scheme of ß-glucosidase B on 4-nitrophenyl-ß-D-glucoside. 
+#### Figure 1. Reaction scheme of ß-glucosidase B on 4-nitrophenyl-ß-D-glucoside. 
 
 A multiple sequence alignment of XXXX related proteins reveals XX conserved residues. 
 
-#### Figure. Multiple sequence alignment. 
+#### Figure 2. Multiple sequence alignment. 
 
 
 ## Results 
 
-### Effects of mutations on protein stability/folding
-
-Of the 120 mutants constructed and tested in this study, 14 (12%) yielded less than 0.165 mg/mL of purified protein. We expect this number to be much higher for our data set (which contains designed mutations predicted to maintain or improve protein stability) than for data sets generated via random mutagenesis. 
-
-#### Table. Mutants expressing less than 0.165 mg/mL protein.
+#### Table 1. Mutants expressing less than 0.165 mg/mL protein.
 
 #### Figure. Cartoon representation of Bagel with residues critical for protein folding colored red. 
 
@@ -59,7 +55,7 @@ Residues E164 and W399 are critical for catalytic function. While 164 is predict
 
 ### Alanine scan, effects on KM
 
-Residue Y18 increases KM by about 4 times. 
+The mutation W120A enables an alternative substrate binding mode. This results in a decrease in K_M because the substrate has an additional possible catalytically-productive binding mode compared to the wild type without the mutation/with the W//. 
 
 ### Modeling predicts stability with high confidence 
 
@@ -77,3 +73,7 @@ Mutants of ß-glucosidase B in pET29b(+) were constructed using Kunkel mutagenes
 
 Plasmids were transformed into _E. coli_ BL21DE3, grown for 24 hours at 37 C in 5 mL TB cultures. 
 
+
+### Kinetic data collection and analysis 
+
+Rates in OD/min were obtained in triplicate for each mutant for 8 substrate concentrations: 100, 75, ... 0 mM. Rates were converted to 1/min by scaling to protein concentration and fit to the Michaelis-Menten equation (kobs=kcat*S/(km+S)). Those with error were fit to determine overall efficiency (kcat/km). 

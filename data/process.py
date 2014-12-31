@@ -56,7 +56,7 @@ def fit(data):
   }
   return pandas.Series(result)
 
-plates = pandas.read_csv('plates.csv')
+plates = pandas.read_csv('data-edited.csv')
 fits = plates.groupby(by='sample').apply(fit)
 fits.to_csv('out/raw-out.csv', columns=('yield', 'kcat', 'err1', 
   'km', 'err2', 'slope', 'std_err', 'R')) 
