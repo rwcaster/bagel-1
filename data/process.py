@@ -47,6 +47,13 @@ def fit(data):
     'std_err': std_err, 
     'R': r_value,
 
+    'si kcat': si_kcat,
+    'si_km': si_km,
+    'ki':  ki,
+    'err4':  err4,
+    'err5':  err5,
+    'err6':  err6,
+
     'mm_x': mm_x, 
     'mm_y': mm_y,
     'lm_x': lm_x, 
@@ -59,24 +66,39 @@ def fit(data):
 plates = pandas.read_csv('data-edited.csv')
 fits = plates.groupby(by='sample').apply(fit)
 fits.to_csv('out/raw-out.csv', columns=('yield', 'kcat', 'err1', 
-  'km', 'err2', 'slope', 'std_err', 'R')) 
+  'km', 'err2', 'slope', 'std_err', 'R', 'ki', 'err6', )) 
 
+# plots
 for sample, fit in fits.iterrows():
-  plt.figure(figsize=(16,4))
-  plt.subplot(131)
-  plt.scatter(fit['x'], fit['y'])
-  plt.title("Sample=%s\nYield=%1.2f mg/mL" % (sample, fit['yield']))
-  plt.xlabel('4-nitrophenyl ß-D-glucoside (M)')
-  plt.ylabel('Observed rate (1/min)')
-  plt.subplot(132)
-  plt.scatter(fit['x'], fit['y'])
-  plt.plot(fit['mm_x'], fit['mm_y']) 
-  plt.title("kcat=%2.2f ± %0.2f percent \n km=%2.4f ± %0.2f percent" 
-      % (fit['kcat'], fit['err1']/fit['kcat']*100, fit['km'], fit['err2']/fit['km']*100) )
-  plt.xlabel('4-nitrophenyl ß-D-glucoside (M)')
-  plt.subplot(133)
-  plt.scatter(fit['x'], fit['y'])
-  plt.plot(fit['lm_x'], fit['lm_y']) 
-  plt.title("kcat/km=%2.2f ± %2.3f\nr^2=%1.2f" % (fit['slope'], fit['std_err'], fit['R']**2) )
-  plt.xlabel('4-nitrophenyl ß-D-glucoside (M)') 
-  plt.savefig('plots/%s.png' % sample)
+  print('Plotting sample %s' % sample)
+
+  fig, axes = plt.subplots(nrows=1, ncols=3, figsize=(18,5))
+  fig.suptitle('Sample %s with yield %1.2f mg/mL' % (sample, fit['yield'], ),
+    fontsize=16)
+  fig.subplots_adjust(bottom=0.1, top=0.70) # make room for labels
+
+  axes[0].scatter(fit['x'], fit['y'])
+  axes[0].plot(fit['lm_x'], fit['lm_y'])
+  axes[0].set_title('Linear\nslope = %.0d\nr = %.2f' % (fit['slope'], fit['R'], ))
+  axes[0].set_ylabel('Rate observed (1/min)')
+
+  axes[1].scatter(fit['x'], fit['y'])
+  axes[1].plot(fit['mm_x'], fit['mm_y'])
+  axes[1].set_title("Michaelis-Menten\nkcat=%2.0f ± %0.2f%%\nkm = %1.4f ± %0.2f%%" % (fit['kcat'],
+    fit['err1']/fit['kcat']*100, fit['km'], fit['err2']/fit['km']*100))
+  axes[1].set_xlabel('4-nitrophenyl-ß-D-glucoside (M)') 
+  
+  axes[2].scatter(fit['x'], fit['y'])
+  axes[2].plot(fit['si_x'], fit['si_y'])
+  if fit['ki'] == False:
+    axes[2].set_title("No substrate inhibition fit") 
+  else:
+    axes[2].set_title("Michaelis-Menten with substrate inhibition\
+      \nkcat = %.0f ± %2.0f%%\nkm = %1.4f ± %2.0f%%\nki = %1.4f ± %2.0f%%" % (fit['kcat'],
+      fit['err1']/fit['kcat']*100, 
+      fit['km'], 
+      fit['err2']/fit['km']*100,
+      fit['ki'], fit['err6']/fit['ki']*100),)
+
+  fig.savefig('svg/%s.svg' % sample)
+  plt.close()
