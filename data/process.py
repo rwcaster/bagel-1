@@ -9,8 +9,6 @@ def si(S, kcat, km, ki): return kcat*S/(km+S*(1+S/ki))
 def f(m, x, b): return m*x+b
 
 def fit(data):
-  '''For use with pandas.DataFrame.groupby('sample').apply(fit)'''
-
   # linear params
   slope, intercept, r_value, p_value, std_err = linregress(data['s'], data['kobs'])
   
@@ -63,7 +61,8 @@ def fit(data):
   }
   return pandas.Series(result)
 
-plates = pandas.read_csv('data-edited.csv')
+# io
+plates = pandas.read_csv('in/data-edited.csv')
 fits = plates.groupby(by='sample').apply(fit)
 fits.to_csv('out/raw-out.csv', columns=('yield', 'kcat', 'err1', 
   'km', 'err2', 'slope', 'std_err', 'R', 'ki', 'err6', )) 
@@ -100,5 +99,5 @@ for sample, fit in fits.iterrows():
       fit['err2']/fit['km']*100,
       fit['ki'], fit['err6']/fit['ki']*100),)
 
-  fig.savefig('svg/%s.svg' % sample)
+  fig.savefig('plots/%s.svg' % sample)
   plt.close()
