@@ -10,3 +10,13 @@
 }
 
 
+@article{phillips1967hen,
+  title={The hen egg-white lysozyme molecule},
+  author={Phillips, David C},
+  journal={Proceedings of the National academy of Sciences of the United States of America},
+  pages={483--495},
+  year={1967},
+  publisher={JSTOR}
+}
+
+
