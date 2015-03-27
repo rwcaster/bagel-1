@@ -1,0 +1,5 @@
+upweight a random score term #hbonds to ligand, for example
+randomly (or systematically) pick a residue 
+if the mutation improves the chosen term and overall protein energy stays low, keep
+else reject
+repeat 
