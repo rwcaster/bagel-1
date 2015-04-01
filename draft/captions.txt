@@ -1,8 +1,0 @@
-Figure 1. Catalyzed reaction and structure of BglB (A) Reaction of BglB on p-nitrophenyl-ß-D-glucoside (B) Structure of BglB in complex with a modeled pNPG. Alpha carbons of residues mutated shown as blue spheres
-
-Figure 2. Kinetic constants for 104 mutants of BglB. Values for kcat, 1/KM, and kcat/KM are relative to wild type and in a log scale, with gold indicating improvement and blue indicating a lower value
-
-Figure 3. (A) Drawing of the active site of BglB showing established catalytic residues (navy) and a selection of residues mutated (gold) (C) Multiple sequence alignment of the Pfam database’s collection of family 1 glycoside hydrolases. (B) Enlargements of the multiple sequence alignment at residues of importance.
-
-Figure 4. Machine learning predictions of kinetic constants against experimentally-determined values. The predicted values of kcat/KM (A), kcat (B), and KM (C) versus the measured values on a log scale. Inset histograms display the range of data observed
-
