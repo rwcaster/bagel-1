@@ -1,0 +1,51 @@
+Supplemental Information for:
+Design and kinetic characterization of over 100 glycoside hydrolase mutants enabling the discovery of specific structural features correlated with kinetic constants
+DA Carlin‡⊥, RW Caster‡†, XK Wang *†, SA Betzenderfer†, CX Chen†, VM Duong†, CV Ryklansky†, A Alpekin†, N Beaumont†, H Kapoor†, N Kim†, H Mohabbot†, B Pang†, R Teel †, L Whithaus†, I Tagkopoulos^†, JB Siegel†∥▽
+† Genome Center, University of California, Davis⊥ Biophysics Graduate Group∥ Department of Chemistry▽ Department of Biochemistry & Molecular Medicine, University of California, Davis * Department of Biomedical Engineering, University of California, Davis ^ Department of Computer Science, University of California, Davis 
+
+Table of Contents
+
+Supplementary Results 
+Supplementary Table 1 (list of mutants)	.	.	.	.	.	. S 
+Supplementary Figure 1 (Gel images)	.	.	.	.	.	. S
+Supplementary Figure 2 (Q19 and R240A)	.	.	.	.	.	. S
+Example Wild Type Rosetta Files	.	.	.	.	.	.	. S 
+Supplementary Table 2 (PCC and SRC values) 	.	.	.	.	. S 
+Supplementary Methods 
+Enzyme Design and Mutagenesis Method	. 	.	.	.	.	. S 
+Protein Expression and Purification Methods		.	.	.	.	. S
+Protein Assay Methods	. 	.	.	.	.	.	.	. S
+References
+
+Supplementary Table 1: List of 104 computationally designed mutants with their experimentally derived kinetic constants, nonlinear regression analysis, Ki for mutants that displayed substrate inhibition, and total yields. The comprehensive list of 104 mutants experimentally designed, built, and assayed using the standard procedure. All mutants were assayed photometrically at 420 nm at 1 minute intervals
+
+
+Supplemental Figure 1: SDS-PAGE gel images for all mutants. SDS-PAGE gels showing greater than 90% purity for all samples. Protein ladder used was SeeBlue® Plus2 Pre-stained Protein Standard (Life Technologies). Yields were also confirmed by comparing with visual gel yields.
+
+
+Supplementary Figure 2: Pymol model of the predicted active site for wild type Beta glucosidase B compared to mutants Q19A and R240A. The estimated distances and predicted hydrogen bonding between the substrate, p-nitrophenyl-ß-D-glucoside, and the BglB molecule are indicated by either black or blue dotted lines, the former being non-catalytic and the latter being catalytic bonds. Mutation of the arginine at position 240 to an alanine is predicted to allow for new conformers of the glutamate at position 222 that interact with the substrate. Mutation of the glutamine at position 19 to an alanine removes two hydrogen bonds to the substrate drastically affecting catalytic efficiency.
+
+Materials and methods
+
+Computational modeling and design
+Mutants were designed using the computer software Foldit, a protein design game based on Rosetta. The program predicts the stability of the mutant enzyme and offers a visual of the new chemical environment, including molecular interactions amongst varying single or double point mutations. Mutants were chosen based on proximity to the active site as well as Foldit’s predicted energy. When designing mutants, if the change increased the energy by less than 5 energy units it was selected for testing. 
+Build
+Creating plasmid
+A sequence coding for BglB (Uniprot P22505) was codon-optimized for Escherichia coli and manufactured as a DNA String by Life Technologies.  A synthetic gene coding for BglB (UNiprot # P22505) with an incorporated His-tag was cloned into pET29b using Gibson assembly. [Cite] (Life Technologies).  The gene was inserted between NdeI and XhoI to encode a C-terminal His tag onto the protein sequence.  Kunkel mutagenesis [] was used to create site-specific mutations, and all plasmids were sequence-verified on the Transcriptic cloud platform. 
+
+Transformation
+20 μL of chemically-competent Escherichia coli BL21(DE3) (Novagen) were transformed on ice with 1 μL of plasmid in buffer at a concentration of 130 to 90 ng/μL. Next, the mixture was temperature shocked to induce plasmid uptake by heating at 42°C for one minute and then chilling on ice for one minute. Cells were recovered in 200 μL Terrific Broth (TB) media at 37 °C for one hour. They were then plated onto an LB agarose plate containing kanamycin, and incubated with shaking for 24 hours at 37 °C. Unless otherwise noted, all supplies were purchased from Sigma-Aldrich.
+Growth cultures
+For each mutant, a 50 mL Falcon tube containing 5 mL TB with 50 mg/mL kanamycin was inoculated with one colony from the plate. Tubes were covered with breathable seals and incubated with shaking for 24 hours at 37 °C.
+
+Expression
+Growth cultures were pelleted by centrifugation at 4700 RPM for 10 minutes and the supernatant was discarded. The cell pellet was resuspended in 5 mL of induction medium (TB with 1 mM isopropyl β-D-1-thiogalactopyranoside and 50 mg/mL kanamycin). The tubes were covered again with breathable seals and incubated with shaking at 18 °C for 24 hours. 
+Protein Purification
+The 5 mL expression culture was pelleted by centrifugation at 4700 for 10 minutes and the supernatant was discarded. The resulting pellet was suspended in 500 μL wash buffer (50 mM HEPES, 150 mM sodium chloride, 15 mM imidazole, pH 7.50) and lysed with a mixture of BugBuster (Millipore), 1 mg lysozyme, 0.1 mg DNase, and 0.1 mg phenylmethylsulfonyl fluoride. The tubes were lysed for 20 minutes and then centrifuged at 14,700 RPM for ten minutes.
+Protein micro-columns [Bio-Spin Chromatography Columns #732-6008] were prepared over a waste collector with 100 μL of 50% nickel resin slurry in each column. The nickel resin was washed with 500 μL wash buffer, then two 500 μL aliquots of supernatant were added to the columns.  Six rounds of 500 μL wash buffer were then allowed to drip through the columns. Resulting protein micro-columns were then transferred to 2 mL tubes for elution. Protein was eluted in 2x100 μL elution buffer (50 mM HEPES, 150 mM  sodium chloride, and 25 mM EDTA, pH 7.50). A brief centrifugation at 4000 RPM ensured all protein was collected. Protein yield was then determined via absorbance at 260 and 280 nm and SDS-PAGE.
+Test
+Protein Assay
+Proteins were assayed at 8 substrate concentrations via a four-fold serial dilution of a 100 mM substrate stock solution. 
+Protein activity was tested by mixing 90 μL substrate stock and 10 μL purified protein. Protein solutions that turned yellow within five minutes displayed sufficient catalytic activity to be diluted to 1/100 concentrations. This was performed by combining 990 μL elution buffer and 10 μL purified protein. Protein solutions that did not turn yellow were converted into 1/10 concentrations by combining 100 μL purified protein with 900 μL elution buffer.
+Diluted protein solution was dispensed in 25 μL aliquots into non-binding 96-well white [Corning Costar #07-200-845]. Mutants were assayed in triplets, allowing for four mutants per plate.
+150 μL substrate stock (100 mM 4-nitrophenyl-beta-D-glucopyranoside in elution buffer) were dispensed into the first row of 96-well PCR plate, with 112.5 uL protein buffer dispensed into the rest of the rows. 37.5 μL of the substrate stock were pipetted from the first row into the second row, then mixed. Serial dilution was repeated for all rows, excluding the last row for a control. The assay was initiated by multi-channel pipetting 75 μL substrate from each row of the PCR plate into the corresponding rows of the non-binding white plate. The rate was determined by monitoring absorbance of light at 420 nm every 1 min for 60 min. 
