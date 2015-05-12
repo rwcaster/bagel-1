@@ -73,9 +73,16 @@ def fit(data):
     eff = kcat / km 
     err3 = eff*((err1/kcat)**2 + (err2/km)**2)**0.5
 
-    # make Michaelis-Menten plot! 
-    y = [ mm(xx,kcat,km) for xx in x ]
-    ax.plot( x, y ) 
+    # check for good ki fit and make ki plot if necessary 
+    if err_ki/ki < c:
+      # make MM + substrate inhibition plot! 
+      y = [ si(xx, kcat, km, ki ) for xx in x ]
+      ax.plot( x, y ) 
+
+    else: # ki error is too high
+      # make Michaelis-Menten plot! 
+      y = [ mm(xx,kcat,km) for xx in x ]
+      ax.plot( x, y ) 
 
   elif err1/kcat > c or err2/km > c: #mm errors too high
     kcat = err1 = km = err2 = None
