@@ -54,7 +54,7 @@ def fit(data):
     p0 = ( data['kobs'].max(), data['s'].mean(), data['s'].mean() )
     (si_kcat, si_km, ki), si_cov = curve_fit(si, data['s'], data['kobs'], p0=p0)
     err4, err5, err_ki = [ abs(si_cov[i][i])**0.5 for i in range(3) ]
-    if err_ki/ki > c:
+    if ki and err_ki/ki > c:
       err_ki = ki = None
   except:
     ki = err_ki = None
@@ -74,7 +74,7 @@ def fit(data):
     err3 = eff*((err1/kcat)**2 + (err2/km)**2)**0.5
 
     # check for good ki fit and make ki plot if necessary 
-    if err_ki/ki < c:
+    if ki and err_ki/ki < 0.1:
       # make MM + substrate inhibition plot! 
       y = [ si(xx, kcat, km, ki ) for xx in x ]
       ax.plot( x, y ) 
@@ -88,13 +88,9 @@ def fit(data):
     kcat = err1 = km = err2 = None
     eff, err3 = slope, std_err
 
-    # limit of detection 
-    if eff < 10:
-      eff = err3 = None 
-    else:
-      # maken ze linear plot 
-      y = [ f(slope,xx,intercept) for xx in x ]
-      ax.plot( x, y ) 
+    # maken ze linear plot 
+    y = [ f(slope,xx,intercept) for xx in x ]
+    ax.plot( x, y ) 
 
   else:
     # no maken ze plot 
