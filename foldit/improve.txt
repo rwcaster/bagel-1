@@ -1,0 +1,23 @@
+In Foldit:
+
+When you make a mutation, wiggle, etc, quickly calculate the predicted kcat and km. 
+
+It would as simple as running the enzdes score on the current pose and then calculating
+
+kcat = ( 1 ) ( total_polar_contacts ) + ( 0.92 ) ( dsasa ) + ( 0.53 ) ( ... 
+
+km = ( 1 ) ( packstat ) + ( 0.54 ) ( SR_X_fa_rep ) + ( ... 
+
+where the weights are those identified by the machine learning algorithm in Carlin 2015. 
+
+The algorithm is mutates a residue, calculates the predicted kcat and km, and if the 
+data is predicted to be informative, submits a run to transcriptic to generate, express, 
+purify, and assay the mutant. The data is added to the set and the algorithm selects a 
+new residue to mutate. 
+
+Every dozen or so mutants, machine learning attempts selection of additional features and 
+cleans out marginal features. Features remain human-selected and physically-realistic. 
+
+# replace "the algorithm" with "the PhD student" in the above paragraph 
+
+# and "machine learning" with "the advisor" 
