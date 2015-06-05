@@ -1,3 +1,29 @@
+# It is highly recommended that you install the scientific Python distribution Anaconda
+# from http://continuum.io/downloads before running this script 
+#
+# Usage:
+#
+#   1.  convert all everything to molar and minutes 
+#
+#   2.  divide out the enzyme concentration from the rate observed at each substrate concentration
+#       such that the units of rate observed are 1/min 
+#
+#   3.  generate a CSV file with columns for sample name, substrate concentration, and rate observed.
+#       Note: the script looks for columns called 'sample', 's', and 'kobs'. Use these exact strings
+#       as your column headers 
+#
+#   4.  create a directory where the script can put the plots that it makes
+#
+#   5.  Run analyze_data.py from the command line:
+#
+#         python analyze_data.py <input csv> <desired output csv> <path to dir for plots> 
+# 
+#       Replace the stuff in brackets with your stuff
+#
+#   6.  The script will attempt to fit your data to the Michaelis-Menten equation, a MM equation
+#       with a simple substrate inhibition term, and a straight line and make a single plot for each 
+#       sample with its best guess as to which equation fits best. 
+
 import pandas
 import argparse 
 from scipy.optimize import curve_fit
@@ -22,7 +48,7 @@ def mm(S, kcat, km): return kcat*S/(km+S)
 def si(S, kcat, km, ki): return kcat*S/(km+S*(1+S/ki))
 def f(m, x, b): return m*x+b
 
-c = 0.25 # cutoff for errors 
+c = 0.50 # cutoff for errors 
  
 def fit(data):
   '''
@@ -56,6 +82,8 @@ def fit(data):
     err4, err5, err_ki = [ abs(si_cov[i][i])**0.5 for i in range(3) ]
     if ki and err_ki/ki > c:
       err_ki = ki = None
+    else:
+      err_ki = ki = None 
   except:
     ki = err_ki = None
 
@@ -64,7 +92,8 @@ def fit(data):
   fig, ax = plt.subplots( nrows=1, ncols=1 )
   ax.scatter( data.s, data.kobs )
   ax.set_title( name.upper() )
-  ax.set_xlabel( r'$\mathregular{ 4-nitrophenyl-\beta-D-glucoside}$ (M)' ) 
+  #ax.set_xlabel( r'$\mathregular{ 4-nitrophenyl-\beta-D-glucoside}$ (M)' ) 
+  ax.set_xlabel( 'Substrate (M) ' ) 
   ax.set_ylabel( r'Rate observed $\mathregular{(min^{-1}) }$' )
   x = linspace( 0, data.s.max() ) 
 
