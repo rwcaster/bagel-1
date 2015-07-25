@@ -1,4 +1,4 @@
-from core.db.amino_acid import aa, ecoli_codon, rc
+from core.db.amino_acid import aa_from_codon, ecoli_codon, rc
 from sys import argv
 import re
 
@@ -20,7 +20,7 @@ for line in lis:
     old = switch[0]
     i = int(''.join( switch[ 1:-1] ))
     new = switch[-1]
-    ori = aa[seq[i-1]]
+    ori = aa_from_codon( seq[i-1] )
     if old is ori:
       seq[i-1] = ecoli_codon[new].upper()
       l += [i]
