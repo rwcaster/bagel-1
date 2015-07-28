@@ -14,7 +14,7 @@ Combine 80 mg lysozyme, 10 mg DNAse, and 10 mg PMSF in a Falcon tube and shake w
 
 Dissolve 12.5 g dry Terrific Broth in 250 mL water and autoclave
 
-### 1 M isopropyl-beta-D-thiogalactopyranoside (1000X IPTG) (10 mL) 
+### 1 M isopropyl-beta-D-thiogalactopyranoside (1000X IPTG) (1 mL) 
 
 Dissolve 240 mg IPTG in 1 mL wash buffer. Store 25 μL aliquots at –20 C
 
@@ -26,6 +26,10 @@ Dissolve 11.9 g HEPES, 8.7 g sodium chloride, and 0.68 g imidazole in water and 
 
 Dissolve 11.9 g HEPES, 8.7 g sodium chloride, and 7.31 g EDTA in water and adjust pH to 7.50
 
-### 0.1 M 4-nitrophenyl-β-D-glucopyranoside (substrate) (100 mL)
+### 0.1 M 4-nitrophenyl-β-D-glucopyranoside (substrate) (33 mL)
 
-Dissolve 3.01 g 4-nitrophenyl-β-D-glucopyranoside in 100 mL protein buffer. Store 1.25 mL aliquots at –20 C
+Dissolve 1 g 4-nitrophenyl-β-D-glucopyranoside in 33 mL protein buffer. Store 1 mL aliquots at -20 C
+
+### 50 mg/mL kanamycin (1000X kanamycin) (10 mL)
+
+Dissolve 500 mg kanamycin in 10 mL water. Store 250 uL aliquots at -20 C. 
