@@ -88,7 +88,7 @@ def fit(data):
     ki = err_ki = None
 
   # set up plot 
-  name = data.sample.values[0] 
+  name = data['sample'].values[0] 
   fig, ax = plt.subplots( nrows=1, ncols=1 )
   ax.scatter( data.s, data.kobs )
   ax.set_title( name.upper() )
@@ -130,7 +130,7 @@ def fit(data):
 
   result = { 
     'yield': '%1.2f' % data['yield'].mean(), 
-    'seq': str( data.sample.values[0] )[1:-1], 
+    'seq': name[1:-1], 
     'kcat': kcat, 'err_kcat': err1, 
     'km': km, 'err_km': err2, 
     'kcat/km': eff, 'err_kcat/km': err3, 
