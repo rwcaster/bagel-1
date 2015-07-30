@@ -137,7 +137,7 @@ Pre-cut Breathable Tube Seal | | 1
   +  If done correctly, each mutant will take up a 3X8 rectangle of wells
 
 1.  In substrate plate, dispense 150 μL of substrate stock into the first row and 112.5 μL of protein buffer into the rest of the rows
-2.  Remove 37.5 μL from the first row, pipette into the second row, and mix by pipetting up and down
+1.  Remove 37.5 μL from the first row, pipette into the second row, and mix by pipetting up and down
 1.  Repeat this serial dilution until you have reached the second to last row. Remove the 37.5 uL from the second to last row, but do not add it to the last row (the last is a control without substrate). Make sure every well has 112.5 μL volume.
 1.  Set up your plate reader to read every well on the plate at 420 nm every minute for 60 minutes, and calculate the resultant rate
 1.  Transfer 75 μL substrate with the multichannel pipettor from substrate plate to assay plate to initiate reaction (The extra substrate left in the cheap plate is to ensure that you are able to transfer a full 75 uL.)
