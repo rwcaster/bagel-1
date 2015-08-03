@@ -1,26 +1,26 @@
-# Protein production and purification: β-glucosidase B 
+# Transform your mutant plasmid into cells 
 
-## Transform your mutant plasmid into cells 
+In this step, you will transform the plasmids encoding your mutant genes into *Escherichia coli*. 
 
-### Materials
+## Materials
 
 Material | Concentration  | Amount per reaction
----------|----------------|-----------------------------
-Chemically-competent Escherichia coli BL21(DE3) | | 30 μL 
-Mutant plasmid solution | 20 ng/μL | 2 μL
+---------|----------------|--------------------
+Chemically-competent *Escherichia coli* BL21(DE3) | | 30 μL 
+Mutant plasmid solution | > 20 ng/μL | 2 μL
 Terrific broth (TB) | | 200 μL
-Agar plates with kanamycin | | 1
-Sterile beads | | 8–10 
+LB agar plates with kanamycin | | 1
+Sterile glass beads | | 8–10 
 2 mL tube | | 1
 
-##### Hardware:
-+ Pipettor and tips (2, 20, and 200 μL)
-+ 37° C incubator
-+ Ice
-+ Ice bucket
-+ 42° C dry bath
+## Hardware
 
-### Method
++ Pipettor and tips (2, 20, and 200 μL)
++ 37 C incubator
++ Ice in ice bucket
++ Pre-warmed 42 C dry bath or thermocycler
+
+## Method
 
 1. Set tubes and chemical competent cells on ice 
 1. In an ice cold 2 mL tube, mix plasmid and competent cells
@@ -31,40 +31,51 @@ Sterile beads | | 8–10
 1. Pipet 200 µL recovered cells on to plate, add glass beads, shake, and get rid of beads
 1. Incubate plate upside down overnight at 37 C
 
-## Growth cultures
+# Growth cultures
 
-### Materials
+In this step, you will prepare 5 mL cultures of your mutants and grow them to high density. 
 
-### Method 
+## Materials
 
-1. Add kanamycin to Terrific Broth to make a batch of growth media for all of your mutants 
-1. Aliquot 5 mL growth media into each in each Falcon tube 
+Material | Concentration | Amount per reaction
+---------|---------------|-----------------------------
+Transformant plates | | 1
+Terrific Broth | | 5 mL
+Kanamycin solution | 1000X (50 mg/mL) | 5 μL
+Pre-cut tube seal | | 1
+
+## Method 
+
+0. Record the number of colonies on your transformation plate and take a photo of the plate 
+1. Add kanamycin to Terrific Broth to make a batch of growth media for all of your mutants (usually a good idea to make $n+1$)
+1. Aliquot 5 mL growth media to each Falcon tube 
 1. Using a pipettor, carefully scrape a single colony off of the plate, dip in the growth media in the Falcon tube, and pipet up and down a few times to inoculate the tube
 1. Seal tubes with tube seals
 1. Incubate with shaking at 37 C for 24 hours
 
-## Expression cultures 
+# Expression cultures 
 
-### Materials 
+In this step, you will replace the growth media in your cultures with growth media with 1 mM IPTG, a small molecule that induces expression of your target protein. 
+
+# Materials 
 
 Material | Concentration | Amount per reaction
 ---------|---------------|-----------------------------
 Growth cultures from day 2 | | 1
-TB (Terrific Broth) | | 5 mL
-1M IPTG | 1000X | 5 μL
-Kanamycin | 1000X | 5 μL
-MgSO<sub>4</sub> | 1000X | 5 μL
+Terrific Broth | | 5 mL
+IPTG | 1000X (1 M) | 5 μL
+Kanamycin | 1000X (50 mg/mL) | 5 μL
 Pre-cut tube seal | | 1
 
-##### Hardware:
+## Hardware:
 + Tube rack
 + Vortexer
 + Centrifuge
 + Pipettor (20 μL)
 + Serological pipette and tip
-+ Shaking incubator at 18° C
++ Shaking incubator 
 
-### Method 
+## Method 
 
 1. Centrifuge growth cultures at 4,700 RPM for 10 minutes, unseal, and pour away supernatant from the pellets 
 1. Weigh the pellet and record your pellet weight 
@@ -73,25 +84,26 @@ Pre-cut tube seal | | 1
 1. Vortex to resuspend pellet
 1. Add 4 mL more induction medium to tube
 1. Seal with tube seals
-1. Incubate with shaking at 18° C for 24 hours 
+1. Incubate with shaking at 18 C for 24 hours 
 
-## Protein purification 
+# Protein purification 
 
-### Materials
+In this step, you will purify your target protein from lysed cells 
+
+## Materials
 
 Material | Concentration | Amount per reaction
 ---------|---------------|-----------------------------
 Expression culture from day 3 | | 5 mL
-Wash Buffer (for lysis buffer) | | 450 μL
-Wash Buffer (for resuspension) | | 500 μL
-Wash Buffer (for washing) | | 3.5 mL
-Bugbuster | 10X | 50 μL
+Wash buffer | | 5 mL
+BugBuster | 10X | 50 μL
 Dry lysis mix | | 1 mg
 2 mL microcentrifuge tube | | 1
 Protein buffer | | 200 μL
-Nickel-NTA resin | | 100 μL
+Nickel-NTA resin | 50% slurry | 100 μL
 
-##### Hardware:
+## Hardware
+
 + Centrifuge capable of 4700-14000 rpm
 + Tube rack
 + Rocker
@@ -101,7 +113,7 @@ Nickel-NTA resin | | 100 μL
 + Spectrophotometer
 + SDS-PAGE equipment
 
-### Method 
+## Method 
 
 1. Centrifuge expression cultures at 4,700 RPM for 10 minutes, unseal, and pour away supernatant
 1. Resuspend cell pellet in 500 µL wash buffer and transfer 1 mL to Goog tube
@@ -118,5 +130,4 @@ Nickel-NTA resin | | 100 μL
 1. Once all unwanted proteins have been washed away, transfer column to fresh tube
 1. Add 100 µL protein buffer directly to beads and incubate at room temperature for five minutes 
 1. Add second 100 µL protein buffer and pulse in the centrifuge a couple of times to ensure you get all the liquid
-1. Wash out the columns and store your protein at 4° C 
-
+1. Wash out the columns and store your protein at 4 C 
