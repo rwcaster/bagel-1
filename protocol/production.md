@@ -13,6 +13,13 @@ Agar plates with kanamycin | | 1
 Sterile beads | | 8–10 
 2 mL tube | | 1
 
+##### Hardware:
++ Pipettor and tips (2, 20, and 200 μL)
++ 37° C incubator
++ Ice
++ Ice bucket
++ 42° C dry bath
+
 ### Method
 
 1. Set tubes and chemical competent cells on ice 
@@ -28,7 +35,6 @@ Sterile beads | | 8–10
 
 ### Materials
 
-
 ### Method 
 
 1. Add kanamycin to Terrific Broth to make a batch of growth media for all of your mutants 
@@ -41,6 +47,23 @@ Sterile beads | | 8–10
 
 ### Materials 
 
+Material | Concentration | Amount per reaction
+---------|---------------|-----------------------------
+Growth cultures from day 2 | | 1
+TB (Terrific Broth) | | 5 mL
+1M IPTG | 1000X | 5 μL
+Kanamycin | 1000X | 5 μL
+MgSO<sub>4</sub> | 1000X | 5 μL
+Pre-cut tube seal | | 1
+
+##### Hardware:
++ Tube rack
++ Vortexer
++ Centrifuge
++ Pipettor (20 μL)
++ Serological pipette and tip
++ Shaking incubator at 18° C
+
 ### Method 
 
 1. Centrifuge growth cultures at 4,700 RPM for 10 minutes, unseal, and pour away supernatant from the pellets 
@@ -50,11 +73,33 @@ Sterile beads | | 8–10
 1. Vortex to resuspend pellet
 1. Add 4 mL more induction medium to tube
 1. Seal with tube seals
-1. Incubate with shaking at 18 C for 24 hours 
+1. Incubate with shaking at 18° C for 24 hours 
 
 ## Protein purification 
 
 ### Materials
+
+Material | Concentration | Amount per reaction
+---------|---------------|-----------------------------
+Expression culture from day 3 | | 5 mL
+Wash Buffer (for lysis buffer) | | 450 μL
+Wash Buffer (for resuspension) | | 500 μL
+Wash Buffer (for washing) | | 3.5 mL
+Bugbuster | 10X | 50 μL
+Dry lysis mix | | 1 mg
+2 mL microcentrifuge tube | | 1
+Protein buffer | | 200 μL
+Nickel-NTA resin | | 100 μL
+
+##### Hardware:
++ Centrifuge capable of 4700-14000 rpm
++ Tube rack
++ Rocker
++ Waste collector
++ Protein microcolumns
++ Pipettors and tips (20, 200, and 1000 μL)
++ Spectrophotometer
++ SDS-PAGE equipment
 
 ### Method 
 
@@ -73,5 +118,5 @@ Sterile beads | | 8–10
 1. Once all unwanted proteins have been washed away, transfer column to fresh tube
 1. Add 100 µL protein buffer directly to beads and incubate at room temperature for five minutes 
 1. Add second 100 µL protein buffer and pulse in the centrifuge a couple of times to ensure you get all the liquid
-1. Wash out the columns and store your protein at 4 C 
+1. Wash out the columns and store your protein at 4° C 
 
