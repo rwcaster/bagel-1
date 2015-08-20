@@ -22,7 +22,7 @@ PCR plate | | 1
 
 ## Method
 
-1. Mix 14 µL of the purified protein and 1386 µL of protein buffer in a 2 mL tube to create 100X diluted protein
+1. Mix 70 µL of the purified protein and 1330 µL of protein buffer in a 2 mL tube to create 20X diluted protein
 2. Mix 800 µL of substrate solution and 7.2 mL of protein buffer in a 15 mL Falcon tube
 3. Use a repeater to transfer 75 µL of diluted substrate into each well of the assay plate
 4. Aliquot 50 µL of diluted protein solution into each well of the PCR plate. Use three columns per mutant. 
