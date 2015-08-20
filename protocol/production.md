@@ -47,7 +47,7 @@ Pre-cut tube seal | | 1
 ## Method 
 
 0. Record the number of colonies on your transformation plate and take a photo of the plate 
-1. Add kanamycin to Terrific Broth to make a batch of growth media for all of your mutants (usually a good idea to make $n+1$)
+1. Add kanamycin to Terrific Broth to make a batch of growth media for all of your mutants (usually a good idea to make (n+1))
 1. Aliquot 5 mL growth media to each Falcon tube 
 1. Using a pipettor, carefully scrape a single colony off of the plate, dip in the growth media in the Falcon tube, and pipet up and down a few times to inoculate the tube
 1. Seal tubes with tube seals
@@ -130,4 +130,5 @@ Nickel-NTA resin | 50% slurry | 100 μL
 1. Once all unwanted proteins have been washed away, transfer column to fresh tube
 1. Add 100 µL protein buffer directly to beads and incubate at room temperature for five minutes 
 1. Add second 100 µL protein buffer and pulse in the centrifuge a couple of times to ensure you get all the liquid
-1. Wash out the columns and store your protein at 4 C 
+1. Remove the columns from the tubes and wash them 
+1. Store your protein at 4 C
